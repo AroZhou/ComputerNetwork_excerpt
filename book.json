@@ -1,14 +1,17 @@
 {
-    "title": "ES6 摘要",
+    "title": "计算机网络 摘要",
     "author": "Aro",
     "language": "zh-hans",
     "gitbook": "3.2.3",
+    "root": "/",
+    "description": "计算机网络（第7版） 谢希仁 编著",
     "structure": {
         "readme": "README.md"
     },
     "plugins": [
         "-sharing",
-        "github"
+        "github",
+        "favicon"
     ],
     "pluginsConfig": {
         "github": {
@@ -17,6 +20,15 @@
         "sharing": {
             "facebook": false,
             "twitter": false
+        },
+        "favicon": {
+            "shortcut": "assets/images/favicon.ico",
+            "bookmark": "assets/images/favicon.ico",
+            "appleTouch": "assets/images/apple-touch-icon.png",
+            "appleTouchMore": {
+                "120x120": "assets/images/apple-touch-icon-120x120.png",
+                "180x180": "assets/images/apple-touch-icon-180x180.png"
+            }
         }
     }
 }
